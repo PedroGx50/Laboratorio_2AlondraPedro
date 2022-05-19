@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class MessageActivty extends AppCompatActivity {
@@ -19,5 +20,10 @@ public class MessageActivty extends AppCompatActivity {
 
         //comments for testing.
 
+    }
+
+    public void mostrar_final_activity(View view) {
+        Intent intent = new Intent(this,FinalActivity.class);
+        startActivity(intent);
     }
 }

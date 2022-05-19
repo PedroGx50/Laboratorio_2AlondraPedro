@@ -13,4 +13,14 @@
         android:text="TextView2"
         tools:layout_editor_absoluteX="169dp"
         tools:layout_editor_absoluteY="276dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mostrar_final_activity"
+        android:onClick="mostrar_final_activity"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="386dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
