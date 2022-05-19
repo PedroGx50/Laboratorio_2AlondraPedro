@@ -11,5 +11,5 @@ public class FinalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_final);
     }
-    //Comentando para hacer commit, odio aqui as
+    //Comentando para hacer commit
 }
